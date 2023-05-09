@@ -3999,6 +3999,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7
   jumpForce: 14
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!95 &1420789303
 Animator:
   serializedVersion: 3
@@ -4032,7 +4035,7 @@ GameObject:
   - component: {fileID: 1434559939}
   - component: {fileID: 1434559938}
   - component: {fileID: 1434559937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
