@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class ItemCollector : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Bananas++;
-            Debug.Log("Banana: " + Banana);
+            Debug.Log("Bananas: " + Bananas);
         }
     }
 }

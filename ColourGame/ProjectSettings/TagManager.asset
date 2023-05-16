@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Banana
   - Water
   - UI
   - Ground
@@ -47,4 +47,7 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 3423818039
+    locked: 0
+  - name: Banana
+    uniqueID: 992685641
     locked: 0
