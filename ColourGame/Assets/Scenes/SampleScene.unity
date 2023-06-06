@@ -40534,6 +40534,7 @@ GameObject:
   - component: {fileID: 1420789302}
   - component: {fileID: 1420789303}
   - component: {fileID: 1420789304}
+  - component: {fileID: 1420789305}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -40704,6 +40705,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BananasText: {fileID: 876870964}
+--- !u!114 &1420789305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420789297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002e9a060b5f43f4baffa5d1f5c2df91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1434559935
 GameObject:
   m_ObjectHideFlags: 0
