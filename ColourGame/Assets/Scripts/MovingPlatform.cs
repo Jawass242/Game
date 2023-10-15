@@ -8,7 +8,7 @@ public class MovingPlatform : MonoBehaviour
     private int currentWaypointIndex = 0;
     [SerializeField] private float Speed = 2f;
    
-    void Update()
+    private void Update()
     {
         if (Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position) < .1f) 
         {
